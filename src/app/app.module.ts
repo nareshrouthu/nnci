@@ -4,8 +4,8 @@ import { FormsModule } from "@angular/forms";
 
 import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
-import { HeaderComponent } from "./header.component";
-import { FooterComponent } from "./footer.component";
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   imports: [BrowserModule, FormsModule],
   declarations: [
