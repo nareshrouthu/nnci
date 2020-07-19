@@ -6,13 +6,15 @@ import { AppComponent } from "./app.component";
 import { HelloComponent } from "./hello.component";
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { AffliatedlinksComponent } from './affliatedlinks/affliatedlinks.component';
 @NgModule({
   imports: [BrowserModule, FormsModule],
   declarations: [
     AppComponent,
     HelloComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AffliatedlinksComponent
   ],
   bootstrap: [AppComponent, HeaderComponent]
 })
