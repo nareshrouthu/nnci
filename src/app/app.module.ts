@@ -16,6 +16,6 @@ import { AffliatedlinksComponent } from './affliatedlinks/affliatedlinks.compone
     FooterComponent,
     AffliatedlinksComponent
   ],
-  bootstrap: [AppComponent, HeaderComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
